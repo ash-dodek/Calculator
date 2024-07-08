@@ -1,6 +1,5 @@
 let functionButtons = document.querySelectorAll(".function")
 
-// let result = 0
 let processDiv = document.querySelector(".process")
 let resultDiv = document.querySelector(".finalAnswer")
 resultDiv.innerText = 0
@@ -52,15 +51,13 @@ for (let i = 0; i < functionButtons.length; i++) {
                 resultDecider(operator)
             }
             else if (operator == "=") {
+                // processDiv.innerText = ""
                 resultDecider(operator)
             }
-            // resultDecider(operator)
+
         }
         else if(!isNaN(parseInt(operator))){
-            
-            // if (resultDiv.innerText == 0) {
-                //     resultDiv.innerText = ""
-                // }
+
             processString += operator
             // resultDiv.innerText += operator
 
@@ -81,6 +78,7 @@ function resultDecider(operator) {
         
         resultDiv.innerText = ans
         processDiv.innerText = ans
+        processString = ans
     }   
 }
 
