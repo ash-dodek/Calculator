@@ -35,6 +35,7 @@ body{
 }
 
 .calcBody{
+    margin-top: 9vh;
     text-align: center;
     width: 270px;
 }
