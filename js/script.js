@@ -58,11 +58,11 @@ for (let i = 0; i < functionButtons.length; i++) {
         }
         else if(!isNaN(parseInt(operator))){
             
+            // if (resultDiv.innerText == 0) {
+                //     resultDiv.innerText = ""
+                // }
             processString += operator
-            if (resultDiv.innerText == 0) {
-                resultDiv.innerText = ""
-            }
-            resultDiv.innerText += operator
+            // resultDiv.innerText += operator
 
             processDiv.innerText = processString
         }
@@ -80,6 +80,7 @@ function resultDecider(operator) {
         let ans = math.evaluate(processString)
         
         resultDiv.innerText = ans
+        processDiv.innerText = ans
     }   
 }
 
