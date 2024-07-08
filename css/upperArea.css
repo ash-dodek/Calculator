@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Math&display=swap');
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24;
+  color: black;
+  
+}
+.noto-sans-math-regular {
+    font-family: "Noto Sans Math", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.montserrat{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+  }
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #d4dfe2;
+    display: flex;
+    color: white;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+    /* align-content: center; */
+}
+
+.calcBody{
+    text-align: center;
+    width: 270px;
+}
+.resultArea{
+    text-align: end;
+    align-content: end;
+    background-color: #70919c;
+    height: 130px;
+    padding: 25px;
+
+}
+.process{
+    font-size: 17px;
+    border: none;
+    outline: none;
+}
+.process:active{
+    border: none;
+}
+.finalAnswer{
+    font-size: 23px;    
+    font-weight: 700;
+}

@@ -1,0 +1,31 @@
+.functionsArea{
+    /* height: 329px; */
+    background-color: white;
+    color: black;
+    display: grid;
+    grid-template-columns: repeat(4, 66px); 
+    grid-template-rows: repeat(4, 66px); 
+    justify-content: space-around;
+    row-gap: 1px;
+    /* column-gap: 1px; */
+    padding: 1px;   
+}
+.function{
+    display: flex;
+    padding: 25px;
+    /* background-color: red; */
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    /* margin: 2px; */
+}
+.function:hover{
+    background-color: rgb(246, 245, 245);
+}
+.special{
+    background-color: #e5e8ec;
+}
+.special:hover{
+    background-color: #cdcfd2 !important;
+
+}
